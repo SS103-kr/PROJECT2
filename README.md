@@ -1,4 +1,4 @@
-# 🎮 Game Auto-Hunting Macro Suite
+#  Game Auto-Hunting Macro Suite
 
 이 레포지토리는 사용자의 플레이 패턴을 그대로 녹화하여 재현하는 **패턴 녹화 방식 매크로(MACRO_REC)**와 실시간 OpenCV 컴퓨터 비전 기술을 접목한 **객체 감지 방식 매크로(MACRO_DTC)**, 두 가지 강력한 게임 자동사냥 도구를 제공합니다.
 
@@ -34,10 +34,10 @@
 
 실시간으로 게임 화면을 모니터링하며 OpenCV 기반 HSV(Hue, Saturation, Value) 가상 트래커로 아군 캐릭터와 적(몬스터)을 인식합니다. 감지된 몬스터 위치를 기반으로 캐릭터가 최적의 반경 내로 접근하고 스킬을 시전합니다.
 
-### 🖼️ UI 스크린샷 (User Interface)
+###  UI 스크린샷 (User Interface)
 <img src="images/macro_dtc_ui.png" width="450" alt="MACRO_DTC UI">
 
-### ✨ 주요 기능
+###  주요 기능
 * **Live Monitor 트래킹**: 실시간 캡처 화면 위에 캐릭터와 몬스터들의 물리적 위치를 직관적인 박스 가이드라인으로 출력합니다.
 * **간편한 마우스 원클릭 색상 추출**: Live Monitor 화면에서 캐릭터나 몬스터의 픽셀을 클릭하는 것만으로 최적의 HSV 컬러 값을 자동으로 저장 및 갱신합니다.
 * **스마트 타겟 분석**: 캐릭터를 중심으로 설정한 수평/수직 인식 반경(`Smart Radius`) 내에 몬스터가 존재할 때만 스킬과 공격을 실행하며, 멀리 있을 때는 부드럽게 이동기를 시전해 접근합니다.
@@ -45,7 +45,7 @@
 
 ---
 
-## ⚡ 공통 안티 디텍션 및 안전 장치 (Security & Safety)
+##  공통 안티 디텍션 및 안전 장치 (Security & Safety)
 * **Pydirectinput 하드웨어 신호 모방**: 일반 가상 키 입력이 아닌, OS 드라이버 레벨에 근접한 DirectInput 방식으로 작동하여 대부분의 PC 게임 환경에서 완벽하게 작동합니다.
 * **물리적 Failsafe 기본 탑재**: 프로그램 실행 도중 급박한 상황이 발생했을 때, 마우스를 화면의 가장자리 모서리로 빠르게 가져가면 즉각 매크로가 강제 중단(Failsafe)되어 계정을 안전하게 보호합니다.
 * **인터럽트 슬립 (Interruptible Sleep)**: 긴 시간 대기하는 스레드 동작 중에도 F5 정지 키를 누르거나 프로그램이 중단되면 지연 시간 도중에 즉각 반응하여 모든 키 누름을 해제(Release)합니다.
@@ -76,7 +76,7 @@ pip install opencv-python numpy keyboard pydirectinput mss
 
 ---
 
-## 🕹️ 사용 시나리오 예시
+##  사용 시나리오 예시
 
 1. **지형이 복잡하고 정해진 빌드(사냥 동선)가 중요한 던전**
    * **`MACRO_REC.py`**를 실행하여 안전한 빌드로 몬스터를 스위핑하는 키보드 패턴을 녹화한 뒤 구동하십시오.
@@ -85,6 +85,6 @@ pip install opencv-python numpy keyboard pydirectinput mss
 
 ---
 
-## ⚖️ 면책 조항 (Disclaimer)
+##  면책 조항 (Disclaimer)
 * 본 매크로 도구는 교육 및 개인 학습, 입력 자동화 실험 목적으로 개발되었습니다.
 * 타사의 온라인 게임 서비스 약관에 위배되는 부정 사용으로 인해 발생하는 계정 제재, 불이익 등에 대한 모든 책임은 사용자 본인에게 있습니다.
