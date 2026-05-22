@@ -20,7 +20,7 @@
 사용자가 직접 입력하는 사냥 키보드 패턴을 밀리초(ms) 단위로 정확히 녹화한 후 재생합니다. 미니맵 색상 분석을 통해 캐릭터의 현재 좌표를 파악하고, 지정된 좌/우 경계(Boundary)에 도달하면 부드럽게 방향을 전환하여 사냥을 이어나갑니다.
 
 ### 🖼️ UI 스크린샷 (User Interface)
-![MACRO_REC UI](images/macro_rec_ui.png)
+<img src="images/macro_rec_ui.png" width="450" alt="MACRO_REC UI">
 
 ### ✨ 주요 기능
 * **양방향 개별 패턴 녹화**: 오른쪽 이동 시의 사냥 패턴과 왼쪽 이동 시의 사냥 패턴을 각각 독립적으로 녹화하여 게임 지형에 최적화된 동선을 구축합니다.
@@ -35,7 +35,7 @@
 실시간으로 게임 화면을 모니터링하며 OpenCV 기반 HSV(Hue, Saturation, Value) 가상 트래커로 아군 캐릭터와 적(몬스터)을 인식합니다. 감지된 몬스터 위치를 기반으로 캐릭터가 최적의 반경 내로 접근하고 스킬을 시전합니다.
 
 ### 🖼️ UI 스크린샷 (User Interface)
-![MACRO_DTC UI](images/macro_dtc_ui.png)
+<img src="images/macro_dtc_ui.png" width="450" alt="MACRO_DTC UI">
 
 ### ✨ 주요 기능
 * **Live Monitor 트래킹**: 실시간 캡처 화면 위에 캐릭터와 몬스터들의 물리적 위치를 직관적인 박스 가이드라인으로 출력합니다.
