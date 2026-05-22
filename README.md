@@ -6,7 +6,7 @@
 
 ---
 
-## 🏛️ 프로그램 개요 (Architecture Overview)
+##  프로그램 개요 (Architecture Overview)
 
 | 프로그램 | 핵심 메커니즘 | 주요 특징 | 추천 사용 대상 |
 | :--- | :--- | :--- | :--- |
@@ -19,7 +19,7 @@
 
 사용자가 직접 입력하는 사냥 키보드 패턴을 밀리초(ms) 단위로 정확히 녹화한 후 재생합니다. 미니맵 색상 분석을 통해 캐릭터의 현재 좌표를 파악하고, 지정된 좌/우 경계(Boundary)에 도달하면 부드럽게 방향을 전환하여 사냥을 이어나갑니다.
 
-### 🖼️ UI 스크린샷 (User Interface)
+###  UI 스크린샷 (User Interface)
 <img src="images/macro_rec_ui.png" width="450" alt="MACRO_REC UI">
 
 ###  주요 기능
